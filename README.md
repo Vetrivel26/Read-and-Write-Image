@@ -22,7 +22,7 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:Vetri Vel S
+### Developed By:VETRIVEL.S
 ### Register Number: 212221240060
 ### i)To Read,display the image
 ```
@@ -61,7 +61,7 @@ color_img=cv2.imread('acd.jpeg',1)
 for i in range(150):
     for j in range(color_img.shape[1]):
         color_img[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-        cv2.imshow('212220230042, P.Sanjay',color_img)
+        cv2.imshow('212221240060, S.VETRIVEL',color_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
